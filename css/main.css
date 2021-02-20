@@ -1,0 +1,77 @@
+html{
+    direction: rtl; 
+}
+
+body{
+    background-color:  #E3BC9A;
+    
+}
+
+.home-brands {
+    float: left;
+    width: 89.3%;
+    height: auto;
+    top: -170px;
+    background-color: #21ad84;
+    min-height: 560px;
+    padding: 113px 50px 20px 80px;
+    margin-right: 10.7%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+pre{
+    direction: rtl !important;
+}
+
+.card1{
+  
+    /* width: 500px;
+    height: 500px; */
+}
+.card-text{
+   
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+a:link ,a:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+a:hover,a:active{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+}
+.ss{
+    animation: dance 1s infinite alternate-reverse;
+}  
+@keyframes dance{
+    100%{
+        transform: rotate(30deg);
+    }
+}
+
+
+
+
+.form__field {
+  font-family: inherit;
+
+  border: 0;
+  border-bottom: 2px solid black;
+  width: 100px;
+  outline: 0;
+  color:black ;
+  padding:  0px;
+  margin: 0px;
+  background: transparent;
+
+
+
+}
+
